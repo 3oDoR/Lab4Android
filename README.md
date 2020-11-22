@@ -70,7 +70,7 @@
 }
 ```
 Далее использовалась команда ./gradlew build после чего появились  результаты сборки по пути build/libs/biblib.jar.
-![alt text]( "./gradlew build")
+![alt text]( https://github.com/3oDoR/Lab4Android/blob/main/png/1.png "./gradlew build")
 #### Задача 2. Знакомство с RecyclerView.
 Для решения задачи была добавлена библиотека biblib, добавлен файл articles.bib(res/raw/articles.bib).
 В layout activity_main лобавлен RecyclerView.
@@ -234,7 +234,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 }
 ```
 #### Резултат работы программы
-![alt text]( "Резултат работы программы")
+![alt text]( https://github.com/3oDoR/Lab4Android/blob/main/png/2.png "Резултат работы программы")
 #### Задача 3. Бесконечный список.
 
 #### Листинг 7. Adapter.java
