@@ -53,9 +53,7 @@
     @Test
     public void shuffleFlag() throws IOException {
 
-      BibConfig cfg = new BibConfig();
       BibDatabase database;
-      cfg.shuffle = true;
       boolean flag = false;
 
 
@@ -229,7 +227,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return Integer.MAX_VALUE;
+        return database.size();
     }
 }
 ```
@@ -262,6 +260,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     }
 ```
 #### Выводы
-1 задача - 30 минут - довольно простое задание + готовые примеры тестов, которые показывают как использовать библиотеку. 
+1 задача - 50 минут - довольно простое задание + готовые примеры тестов, которые показывают как использовать библиотеку. 
 2 задача - 2 часа - в основном разбирался с классом “Adapter” т.к. “MainActivity” был готовый в примере и почти полностью подходил под нашу задачу. 
 3 задача - 1 час - Исходный код из второй задачи   был модифицирован и теперь список выводимых записей стал бесконечным. 
